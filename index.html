@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[GOFI] CORPORATION</title>
+            <link rel="shortcut icon" type="image/png" href="Multimedia/GOFI_LOGO_PNG.png">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(to bottom right, rgba(0, 116, 217, 0.8), rgba(244, 208, 63, 0.8), rgba(46, 204, 113, 0.8));
+        background-image: url(Multimedia/BC.png);
+        background-size: cover;
+        background-position: center;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Cambio de la tipografía */
+        color: #ffffff; /* Color blanco para el texto */
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+
+      .header h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .rectangle {
+        position: relative;
+        width: 50%;
+        margin-top: 40px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .image-container {
+        flex: 1;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        overflow: hidden;
+        max-width: 30%;
+      }
+
+      .image-container img {
+        width: 75%;
+        border-radius: 75%;
+      }
+
+      .text-container {
+        flex: 2;
+        padding: 10px;
+        text-align: left;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Cambio de la tipografía */
+        color: #ffffff; /* Color blanco para el texto */
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        text-align: left;
+        background: linear-gradient(to right, #2ecc71, #3498db, #e74c3c);
+        background-size: 200% 100%;
+        background-position: 100% 50%;
+        animation: Gradient 3s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      @keyframes Gradient {
+        0% {
+          background-position: 100% 50%;
+        }
+        50% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>[GOFI] CORPORATION</h2>
+    </div>
+    <p style="position: absolute; top: 60px; left: 20px;">All Rights Reserved.</p>
+    <div class="rectangle">
+      <div class="image-container">
+        <img src="Multimedia/GOFI_LOGO_PNG.png" alt="Imagen" />
+      </div>
+      <div class="text-container">
+        <h1>We are working to offer you a better experience!</h1>
+      </div>
+    </div>
+  </body>
+</html>
